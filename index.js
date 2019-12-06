@@ -28,4 +28,3 @@ exports.generateMultipleGuids = (numToGen, brackets) {
 
     return guids
 }
-}
