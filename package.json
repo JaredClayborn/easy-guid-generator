@@ -1,0 +1,26 @@
+{
+  "name": "easy-guid-generator",
+  "version": "0.0.1",
+  "description": "generate guids",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaredClayborn/guid-generator.git"
+  },
+  "keywords": [
+    "guid",
+    "uuid",
+    "generate guid",
+    "generate uuid",
+    "easy"
+  ],
+  "author": "JaredClayborn",
+  "license": "SEE LICENSE IN LICENSE.TXT",
+  "bugs": {
+    "url": "https://github.com/JaredClayborn/guid-generator/issues"
+  },
+  "homepage": "https://github.com/JaredClayborn/guid-generator#readme"
+}
