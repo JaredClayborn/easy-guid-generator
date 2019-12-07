@@ -22,7 +22,7 @@ exports.emptyGuid = function (brackets) {
 exports.generateMultipleGuids = function (numToGen, brackets) {
     let guids = []
     for (let i = 0; i < numToGen; i++) {
-        let guid = generateGuid(brackets)
+        let guid = this.generateGuid(brackets)
         guids.push(guid)
     }
 
