@@ -19,11 +19,12 @@ exports.emptyGuid = function (brackets) {
     return brackets === true ? `{${emptyGuid}}` : emptyGuid
 }
 
-// exports.generateMultipleGuids = function (numToGen, brackets) {
-//     let guids = []
-//     for (let i = 0; i < numToGen; i++) {
-//         guids.push(generateGuid(brackets))
-//     }
+exports.generateMultipleGuids = function (numToGen, brackets) {
+    let guids = []
+    for (let i = 0; i < numToGen; i++) {
+        let guid = generateGuid(brackets)
+        guids.push(guid)
+    }
 
-//     return guids
-// }
+    return guids
+}
