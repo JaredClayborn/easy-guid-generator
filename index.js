@@ -18,13 +18,3 @@ exports.emptyGuid = function (brackets) {
     let emptyGuid = '00000000-0000-0000-0000-000000000000'
     return brackets === true ? `{${emptyGuid}}` : emptyGuid
 }
-
-exports.generateMultipleGuids = function (numToGen, brackets) {
-    let guids = []
-    for (let i = 0; i < numToGen; i++) {
-        let guid = this.generateGuid(brackets)
-        guids.push(guid)
-    }
-
-    return guids
-}
