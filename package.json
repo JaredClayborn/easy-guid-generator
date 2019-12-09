@@ -1,6 +1,6 @@
 {
   "name": "easy-guid-generator",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "generate guids",
   "main": "index.js",
   "scripts": {
