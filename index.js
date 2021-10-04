@@ -1,4 +1,4 @@
-exports.generateGuid = function (brackets) {
+const generateGuid = function (brackets) {
     const sizes = [8, 4, 4, 4, 12]
     const possible = 'ABCDEF0123456789'
     let guid = ''
@@ -14,7 +14,22 @@ exports.generateGuid = function (brackets) {
     return brackets === true ? `{${guid}}` : guid
 }
 
-exports.emptyGuid = function (brackets) {
+const generateMultipleGuids = function (numGuids, brackets) {
+    const guids = []
+    for (let i = 0; i < numGuids; i++) {
+        guids.push(generateGuid(brackets))
+    }
+
+    return guids
+}
+
+const emptyGuid = function (brackets) {
     let emptyGuid = '00000000-0000-0000-0000-000000000000'
     return brackets === true ? `{${emptyGuid}}` : emptyGuid
+}
+
+module.exports = {
+    generateGuid,
+    generateMultipleGuids,
+    emptyGuid
 }
