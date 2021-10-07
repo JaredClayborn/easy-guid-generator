@@ -1,10 +1,10 @@
 {
   "name": "easy-guid-generator",
-  "version": "0.1.4",
+  "version": "1.0.1",
   "description": "generate guids",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "node tests/allTests.js"
   },
   "repository": {
     "type": "git",

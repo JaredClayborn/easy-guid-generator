@@ -36,5 +36,5 @@ console.log(multi) // " ['{9703A3EC-5D25-301E-4C8F-5B6F85481937}', '{BBD97E0E-6A
 
 ## Testing
 
-Open the project and run ```node tests/allTests.js```
+Open the project and run ```npm test```
 This will print out a report of all current test files and passes/failures
